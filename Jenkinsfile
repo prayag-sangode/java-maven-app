@@ -37,7 +37,7 @@ pipeline {
 
       }
     }
-    stage('Deploy HTML App on microk8s') {
+    stage('Deploy Java Spring Boot App on microk8s') {
       steps{
        withKubeConfig([credentialsId: 'microk8s-id', serverUrl: 'https://10.160.0.2:16443']) {
         sh 'kubectl apply -f deploy.yaml'
