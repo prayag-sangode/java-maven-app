@@ -30,6 +30,6 @@ spec:
     spec:
       containers:
       - name: java-maven-app
-        image: prayags/java-maven-app:v1
+        image: prayags/java-maven-app:latest
         ports:
         - containerPort: 8080
