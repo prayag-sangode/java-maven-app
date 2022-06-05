@@ -5,7 +5,7 @@ metadata:
   labels:
     app: java-maven-app
 spec:
-        type: NodePort
+  type: NodePort
   ports:
   - port: 8080
     NodePort: 30081
