@@ -8,7 +8,7 @@ spec:
   type: NodePort
   ports:
   - port: 8080
-    NodePort: 30081
+    nodePort: 30081
   selector:
     app: java-maven-app
 ---
